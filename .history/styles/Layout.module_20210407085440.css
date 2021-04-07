@@ -1,5 +1,4 @@
-
-.header{
+header{
     border-bottom: 1px solid #E2E8F0;
 }
 
@@ -64,7 +63,8 @@
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
-    }
+        }
+}
 
     .navmenu.active {
         left: 0;
@@ -92,4 +92,3 @@
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
-}
